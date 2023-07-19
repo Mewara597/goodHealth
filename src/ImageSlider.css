@@ -1,0 +1,19 @@
+.slick-slider .slick-dots li {
+    width: 25px;
+    background: #D3d3d3;
+    height: 2px;
+}
+.slick-slider .slick-dots li.slick-active{
+    background:black;
+}
+.slick-slider .slick-dots li:hover{
+    background:black;
+}
+
+.slick-slider .slick-dots li button::before{
+    content:"";
+    height:2px;
+}
+.slick-slider .slick-dots li button {
+    height:2px;
+}
